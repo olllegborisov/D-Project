@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test task</title>
+        <link rel="stylesheet" type="text/css" href="./libs/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./css/app.min.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container">
+                <img class="header__logo" src="./images/svg/logo.svg" />
+                <div class="header__wrapper">
+                    <nav class="header__nav">
+                        <ul class="header__ul">
+                            <li class="header__li"><a href="#">аниме</a></li>
+                            <li class="header__li"><a href="#">футболки</a></li>
+                            <li class="header__li"><a href="#">лонгсливы</a></li>
+                            <li class="header__li"><a href="#">худи</a></li>
+                            <li class="header__li"><a href="#">инфо</a></li>
+                            <li class="header__li"><a href="#">новости</a></li>
+                            <li class="header__li"><a href="#">контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__phone-wrapper">
+                    <img src="./images/svg/phone.svg" alt="телефон" class="header__phone">
+                    <a href="#" class="header__phone-number">+7 900 000-00-00</a>
+                </div>
+                <div class="header__mail-wrapper">
+                    <img src="./images/svg/user.svg" alt="пользователь" class="header__user">
+                    <a href="" class="header__email">alexsandеr@gmail.com</a>
+                    <span class="header__points">10 000 бал.</span>
+                </div>
+                <div class="header__actions-group">
+                    <a href="#">
+                        <img src="./images/svg/search.svg" alt="лупа" class="header__search">
+                    </a>
+                    <a href="#">
+                        <img src="./images/svg/heart.svg" alt="сердце" class="header__heart">
+                    </a>
+                    <a href="#">
+                        <img src="./images/svg/shopping-bag.svg" alt="сумка для покупок" class="header__shopping-bag">
+                    </a>
+                </div>
+                <img class="header__burger" src="./images/svg/burger.svg" alt="меню">
+            </div>
+
+        </header>
+        <div class="form-wrapper">
+            <form action="" class="form">
+                <h4 class="form-title">Обратный звонок</h4>
+                <input class="form-name" name="name" type="text" placeholder="Имя">
+                <input class="form-phone" name="phone" type="text" placeholder="Номер телефона">
+                <div class="form-button-wrapper">
+                    <button class="form-button">отправить</button>
+                    <span class="form-agreement">Нажимая кнопку, вы соглашаетесь с обработкой ваших персональных данных</span>
+                </div>
+            </form>
+        </div>
+        <section class="slider">
+            <div class="main-slider__container">
+                <div class="main-slider swiper">
+                    <div class="main-slider__wrapper swiper-wrapper">
+                        <div class="main-slider__slide swiper-slide">
+                            <picture>
+                                <source srcset="./images/dest/main-320.webp" media="(max-width: 744px)" >
+                                <source srcset="./images/dest/main-1440.webp" media="(max-width: 1440px)" >
+                                <img class="main-slider__img" src="./images/dest/main.webp" alt="aniclot collection">
+                            </picture>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <picture>
+                                <source srcset="./images/dest/main-320.webp" media="(max-width:  744px)" >
+                                <source srcset="./images/dest/main-1440.webp" media="(max-width: 1440px)" >
+                                <img class="main-slider__img" src="./images/dest/main.webp" alt="aniclot collection">
+                            </picture>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <picture>
+                                <source srcset="./images/dest/main-320.webp" media="(max-width:  744px)" >
+                                <source srcset="./images/dest/main-1440.webp" media="(max-width: 1440px)" >
+                                <img class="main-slider__img" src="./images/dest/main.webp" alt="aniclot collection">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="main-slider__prev swiper-button-prev"></div>
+                    <div class="main-slider__next swiper-button-next"></div>
+                    <div class="main-slider__pagination swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section new-products">
+            <div class="new-products__container container-box">
+                <div class="new-products__title-wrapper">
+                    <h3 class="new-products__title">Новинки</h3>
+                    <button class="new-products__button">
+                        <span class="new-products__text-button">Все новинки</span>
+                        <img src="./images/svg/arrow-white.svg" alt="" class="new-products__arrow">
+                    </button>
+                </div>
+                <div class="new-products__slider swiper">
+                    <div class="new-products__slider-wrapper swiper-wrapper">
+                        <div class="new-products__slide swiper-slide">
+                            <span class="new-products__new">new!</span>
+                            <img src="./images/svg/product-heart.svg" alt="" class="new-products__heart">
+                            <img src="./images/new-products/product1.webp" alt="" class="new-products__image">
+                            <p class="new-products__name">клинок рассекающий демонов</p>
+                            <p class="new-products__description">Футболка&nbsp;аниме&nbsp;клинок&nbsp;рассекающий демонов,&nbsp;чёрный&nbsp;цвет,&nbsp;46 размер,&nbsp;100%&nbsp;хлопок</p>
+                            <div class="new-products__price-wrapper">
+                                <span class="new-products__price">10 000 ₽</span>
+                                <span class="new-products__price_old">20 000 ₽</span>
+                            </div>
+                        </div>
+                        <div class="new-products__slide swiper-slide">
+                            <span class="new-products__new">new!</span>
+                            <img src="./images/svg/product-heart.svg" alt="" class="new-products__heart">
+                            <img src="./images/new-products/product2.webp" alt="" class="new-products__image">
+                            <p class="new-products__name">Магическая битва</p>
+                            <p class="new-products__description">Футболка Магическая битва</p>
+                            <div class="new-products__price-wrapper">
+                                <span class="new-products__price">10 000 ₽</span>
+                                <span class="new-products__price_old">20 000 ₽</span>
+                            </div>
+                        </div>
+                        <div class="new-products__slide swiper-slide">
+                            <span class="new-products__new">new!</span>
+                            <img src="./images/svg/product-heart.svg" alt="" class="new-products__heart">
+                            <img src="./images/new-products/product3.webp" alt="" class="new-products__image">
+                            <p class="new-products__name">клинок рассекающий демонов</p>
+                            <p class="new-products__description">Футболкааниме&nbsp;клинок&nbsp;рассекающий демонов,&nbsp;чёрный&nbsp;цвет,&nbsp;46 размер,&nbsp;100%&nbsp;хлопок</p>
+                            <div class="new-products__price-wrapper">
+                                <span class="new-products__price">10 000 ₽</span>
+                                <span class="new-products__price_old">20 000 ₽</span>
+                            </div>
+                        </div>
+                        <div class="new-products__slide swiper-slide">
+                            <span class="new-products__new">new!</span>
+                            <img src="./images/svg/product-heart.svg" alt="" class="new-products__heart">
+                            <img src="./images/new-products/product4.webp" alt="" class="new-products__image">
+                            <p class="new-products__name">Магическая битва</p>
+                            <p class="new-products__description">Футболка Магическая битва</p>
+                            <div class="new-products__price-wrapper">
+                                <span class="new-products__price">10 000 ₽</span>
+                                <span class="new-products__price_old">20 000 ₽</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-products__prev swiper-button-prev"></div>
+                    <div class="new-products__next swiper-button-next"></div>
+                    <div class="new-products__pagination swiper-pagination"></div>
+                </div>
+            </div>
+            <button class="new-products__button-mobile">
+                <span class="new-products__text-button">Все новинки</span>
+                <img src="./images/svg/arrow-white.svg" alt="" class="new-products__arrow">
+            </button>
+        </section>
+        <section class="section popular-collections">
+            <div class="popular-collections__wrapper container-box">
+                <h3 class="popular-collections__title-mobile">Популярные коллекции</h3> 
+
+                <div class="popular-collections__item item1">
+                    <div class="popular-collections__title-wrapper">
+                        <span class="popular-collections__type">Коллекция</span>
+                        <span class="popular-collections__title">Магическая битва</span>
+                    </div>
+                    <img class="popular-collections__img" src="./images/popular-collections/item1.webp" alt="">
+                    
+                </div>
+                <div class="popular-collections__item item2">          
+                    <div class="popular-collections__title-wrapper">
+                        <span class="popular-collections__type">Коллекция</span>
+                        <span class="popular-collections__title">Человек — бензопила</span>
+                    </div>
+                    <img class="popular-collections__img" src="./images/popular-collections/item2.webp" alt="">
+                    
+                </div>
+                <div class="popular-collections__item item3">
+                    <div class="popular-collections__title-wrapper">
+                        <span class="popular-collections__type">Коллекция</span>
+                        <span class="popular-collections__title">Евангелион</span>
+                    </div>
+                    <img class="popular-collections__img" src="./images/popular-collections/item3.webp" alt="">
+                    
+                </div>
+                <div class="popular-collections__item item4">
+                    <div class="popular-collections__title-wrapper popular-collections__title-wrapper_width-big">
+                        <span class="popular-collections__type">Коллекция</span>
+                        <span class="popular-collections__title popular-collections__title_no-wrap">Клинок рассекающий демонов</span>
+                    </div>
+                    <img class="popular-collections__img popular-collections__img_width-big" src="./images/popular-collections/item4.webp" alt="">
+                    
+                </div>
+                <div class="popular-collections__item-center item-center ">
+                    <h3 class="popular-collections__title_font-big">Популярные коллекции</h3> 
+                    <button class="popular-collections__button">
+                        <span class="popular-collections__text-button">Все коллекции</span>
+                        <img class="popular-collections__arrow-button" src="./images/svg/arrow-white.svg" alt="" >
+                    </button>
+                </div>
+                <div class="popular-collections__item item5">
+                    <div class="popular-collections__title-wrapper popular-collections__title-wrapper_width-big">
+                        <span class="popular-collections__type">Коллекция</span>
+                        <span class="popular-collections__title popular-collections__title_no-wrap">Берсерк</span>
+                    </div>
+                    <img class="popular-collections__img popular-collections__img_width-big" src="./images/popular-collections/item5.webp" alt="">
+                    
+                </div>
+                <div class="popular-collections__item item6">
+                    <div class="popular-collections__title-wrapper">
+                        <span class="popular-collections__type">Коллекция</span>
+                        <span class="popular-collections__title">Моя геройская академия</span>
+                    </div>
+                    <img class="popular-collections__img" src="./images/popular-collections/item6.webp" alt="">
+                    
+                </div>
+                <div class="popular-collections__item item7">
+                    <div class="popular-collections__title-wrapper">
+                        <span class="popular-collections__type">Коллекция</span>
+                        <span class="popular-collections__title">Блич</span>
+                    </div>
+                    <img class="popular-collections__img" src="./images/popular-collections/item7.webp" alt="">
+                    
+                </div>
+                <div class="popular-collections__item item8">
+                    <div class="popular-collections__title-wrapper">
+                        <span class="popular-collections__type">Коллекция</span>
+                        <span class="popular-collections__title">One-Punch Man</span>
+                    </div>
+                    <img class="popular-collections__img" src="./images/popular-collections/item8.webp" alt="">
+                    
+                </div>
+            </div>
+            <button class="popular-collections__button-mobile">
+                <span class="popular-collections__text-button">Все коллекции</span>
+                <img class="popular-collections__arrow-button" src="./images/svg/arrow-white.svg" alt="" >
+            </button>
+        </section>
+        <script src="./libs/swiper/swiper-bundle.min.js"></script>
+        <script type="module" src="./js/app.min.js"></script>
+    </body>
+</html>
